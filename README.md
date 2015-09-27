@@ -6,7 +6,7 @@ Yunogen generates a widening ASCII art piece in likeness of Yuno from the critic
 
 Yunogen is written in C for performance, portability, and above all cuteness. It strives to be bloat free and follow the KISS principle.
 
-    >twf Yuno will never be real ;_;
+    >tfw Yuno will never be real ;_;
 
 ## Installation
 
