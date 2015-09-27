@@ -2,7 +2,7 @@
 
 The Yuno generator is an ncurses-based solution to a severe lack of adorableness in Unix-like operating systems.
 
-Yunogen generates a widening ASCII art piece in likeness of Yuno from the Critically acclaimed manga series *Hidamari Sketch*.
+Yunogen generates a widening ASCII art piece in likeness of Yuno from the critically acclaimed manga series *Hidamari Sketch*.
 
 Yunogen is written in C for performance, portability, and above all cuteness. It strives to be bloat free and follow the KISS principle.
 
