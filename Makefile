@@ -21,6 +21,5 @@ clean:
 install:
 	mkdir -p "$(PREFIX)/bin"
 	cp -r $(bindir)/* "$(PREFIX)/bin/"
-	gzip $(docdir)/*.1
-	cp -r $(docdir)/* "$(PREFIX)/share/man/man1"
+	cp -r $(docdir)/*.1* "$(PREFIX)/share/man/man1"
 
