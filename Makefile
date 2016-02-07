@@ -9,9 +9,11 @@ PREFIX  ?=  /usr/local
 all: yunogen
 	
 yunogen: yunogen.o
+	test -d $(bindir) || mkdir $(bindir)
 	$(CC) $(CFLAGS) $(LDFLAGS) -o $(bindir)/yunogen $(objdir)/$<
 	
 yunogen.o: $(srcdir)/yunogen.c
+	test -d $(objdir) || mkdir $(objdir)
 	$(CC) $(CFLAGS) -c -o $(objdir)/yunogen.o $(srcdir)/yunogen.c
 	
 clean:
